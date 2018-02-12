@@ -1,6 +1,6 @@
 {
-    "coin": "dashcoin",
-    "symbol": "DSH",
+    "coin": "b2bcoin",
+    "symbol": "B2B",
     "coinUnits": 1000000000000,
     "coinDifficultyTarget": 120,
 
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "D6WLtrV1SBWV8HWQzQv8uuYuGy3uwZ8ah5iT5HovSqhTKMauquoTsKP8RBJzVqVesX87poYWQgkGWB4NWHJ6Ravv93v4BaE",
+        "poolAddress": "62BezyvofqyNrgmyeC9319EnRrQ4T96yzHRGoAA8kh2o5NEKDnzTZ8LP6TaGfsKaCU5LzR8TBeYWTWB8QYFja9hL3zN3TkX",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
@@ -80,11 +80,11 @@
     "payments": {
         "enabled": true,
         "interval": 600,
-        "maxAddresses": 50,
-        "mixin": 3,
-        "transferFee": 50000000,
-        "minPayment": 1000000000,
-        "maxTransactionAmount": 0,
+        "maxAddresses": 1,
+        "mixin": 1,
+        "transferFee": 30000000,
+        "minPayment": 10000000000,
+        "maxTransactionAmount": 50000000000000,
         "denomination": 1000000000
     },
 
@@ -92,10 +92,10 @@
         "enabled": true,
         "interval": 30,
         "depth": 10,
-        "poolFee": 2,
-        "devDonation": 0.1,
+        "poolFee": 1.5,
+        "devDonation": 2,
         "coreDevDonation": 0.1,
-        "extraFeaturesDevDonation":0.1
+        "extraFeaturesDevDonation": 0.1
     },
 
     "api": {
@@ -105,12 +105,12 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password"
+        "password": "Marex2018"
     },
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 42081
+        "port": 39156
     },
 
     "wallet": {
@@ -149,18 +149,6 @@
                 "maximumPeriod": 86400
             },
             "difficulty": {
-                "enabled": true,
-                "updateInterval": 1800,
-                "stepInterval": 10800,
-                "maximumPeriod": 604800
-            },
-            "price": {
-                "enabled": true,
-                "updateInterval": 1800,
-                "stepInterval": 10800,
-                "maximumPeriod": 604800
-            },
-            "profit": {
                 "enabled": true,
                 "updateInterval": 1800,
                 "stepInterval": 10800,
